@@ -1,0 +1,29 @@
+# Ignore build outputs
+/client/build/
+
+# Ignore node_modules
+/client/node_modules/
+
+# Ignore package lock files (to ignore package-lock.json)
+# /client/package-lock.json
+
+# Ignore log files
+*.log
+
+# Ignore environment files
+/client/.env
+/backend/.env
+
+# Ignore IDE/editor settings
+/.idea/
+/.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage reports
+/coverage/
+
+# Ignore any other files or directories you don't want to track
+*.local
